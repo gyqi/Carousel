@@ -27,8 +27,8 @@ Completed user stories:
 	* [ ] Optional: User is taken to the tutorial screens upon tapping the "Create a Dropbox" button.
 * Tutorial Screens
   * [x] Required: User can page between the screens.
-  * [ ] Optional: User can page between the screens with updated dots.
-  * [ ] Optional: Upon reaching the 4th page, hide the dots and show the "Take Carousel for a Spin" button.
+  * [x] Optional: User can page between the screens with updated dots.
+  * [x] Optional: Upon reaching the 4th page, hide the dots and show the "Take Carousel for a Spin" button.
 * Image Timeline
   * [x] Required: Display a scrollable view of images.
   * [x] Required: User can tap on the conversations button to see the conversations screen (push).
