@@ -11,7 +11,7 @@ Completed user stories:
 
 * Intro Screen
 	* [x] Required: Static photo tiles on the initial screen.
-		* [x] Optional: Photo tiles move with scrolling.
+		* [ ] Optional: Photo tiles move with scrolling.
 * Sign In
 	* [x] Required: Tapping on email/password reveals the keyboard and shifts the scrollview and Sign In button up.
 	* Upon tapping the Sign In button:
@@ -21,7 +21,7 @@ Completed user stories:
 	* [x] Optional: When the keyboard is visible, if the user pulls down on the scrollview, it will dismiss the keyboard.
 	* [x] Optional: On appear, scale the form up and fade it in.
 * [x] Optional: Create a Dropbox
-	* [ ] Optional: Tapping in the form reveals the keyboard and shifts the scrollview and "Create a Dropbox" button up.
+	* [x] Optional: Tapping in the form reveals the keyboard and shifts the scrollview and "Create a Dropbox" button up.
 	* [x] Optional: Tapping the Agree to Terms checkbox selects the checkbox.
 	* [x] Optional: Tapping on Terms shows a webview with the terms.
 	* [x] Optional: User is taken to the tutorial screens upon tapping the "Create a Dropbox" button.
