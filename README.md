@@ -20,11 +20,11 @@ Completed user stories:
 	  * [x] Required: If the credentials are correct, user sees a loading indicator for 2 seconds followed by a transition to the Sign In screens.
 	* [x] Optional: When the keyboard is visible, if the user pulls down on the scrollview, it will dismiss the keyboard.
 	* [x] Optional: On appear, scale the form up and fade it in.
-* [ ] Optional: Create a Dropbox
+* [x] Optional: Create a Dropbox
 	* [ ] Optional: Tapping in the form reveals the keyboard and shifts the scrollview and "Create a Dropbox" button up.
-	* [ ] Optional: Tapping the Agree to Terms checkbox selects the checkbox.
-	* [ ] Optional: Tapping on Terms shows a webview with the terms.
-	* [ ] Optional: User is taken to the tutorial screens upon tapping the "Create a Dropbox" button.
+	* [x] Optional: Tapping the Agree to Terms checkbox selects the checkbox.
+	* [x] Optional: Tapping on Terms shows a webview with the terms.
+	* [x] Optional: User is taken to the tutorial screens upon tapping the "Create a Dropbox" button.
 * Tutorial Screens
   * [x] Required: User can page between the screens.
   * [x] Optional: User can page between the screens with updated dots.
@@ -40,7 +40,7 @@ Completed user stories:
 	* [x] Required: User can sign out
 	  * [x] Optional: Tapping on sign out will present users an alert that gives option of sign out or cancel.
 * Optional: Learn more about Carousel
-  * [ ] Optional: Show the "Learn more about Carousel" button in the photo timeline.
+  * [x] Optional: Show the "Learn more about Carousel" button in the photo timeline.
   * [ ] Optional: Tap the X to dismiss the banner
   * [ ] Optional: Track the 3 events:
     * View a photo full screen
