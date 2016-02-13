@@ -41,13 +41,13 @@ Completed user stories:
 	  * [x] Optional: Tapping on sign out will present users an alert that gives option of sign out or cancel.
 * Optional: Learn more about Carousel
   * [x] Optional: Show the "Learn more about Carousel" button in the photo timeline.
-  * [ ] Optional: Tap the X to dismiss the banner
+  * [x] Optional: Tap the X to dismiss the banner
   * [x] Optional: Track the 3 events:
     * View a photo full screen
     * Swipe left and right
     * Share a photo
   * [x] Optional: Upon completion of the events, mark them green.
-  * [ ] Optional: When all events are completed, dismiss the banner.	
+  * [x] Optional: When all events are completed, dismiss the banner.	
 
 
 Notes:
