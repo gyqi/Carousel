@@ -11,7 +11,7 @@ Completed user stories:
 
 * Intro Screen
 	* [x] Required: Static photo tiles on the initial screen.
-		* [ ] Optional: Photo tiles move with scrolling.
+		* [x] Optional: Photo tiles move with scrolling.
 * Sign In
 	* [x] Required: Tapping on email/password reveals the keyboard and shifts the scrollview and Sign In button up.
 	* Upon tapping the Sign In button:
