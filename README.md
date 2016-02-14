@@ -5,7 +5,7 @@ README for Dropbox
 Description:
 This is an iOS demo application that is for the week 2 assignment of Codepath iOS for designers.
 
-Time spent: 15 hours spent in total
+Time spent: 16 hours spent in total
 
 Completed user stories:
 
