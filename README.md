@@ -57,11 +57,11 @@ Walkthrough of user stories:
 
 Required
 
-![Video Walkthrough](dropbox_required.gif?raw=true)
+![Video Walkthrough](carousel_required.gif?raw=true)
 
 Optional
 
-![Video Walkthrough](dropbox_optional.gif?raw=true)
+![Video Walkthrough](carousel_optional.gif?raw=true)
 
 Open-Source Library: none
 GIF created with LiceCap.
