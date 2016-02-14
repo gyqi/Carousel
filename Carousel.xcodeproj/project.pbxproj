@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24074E411C6D49D800319D46 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24074E401C6D49D800319D46 /* CreateViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		24074E431C6EF3EE00319D46 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24074E421C6EF3EE00319D46 /* TermsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		24074E451C6EFD6200319D46 /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24074E441C6EFD6200319D46 /* GetStartedViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		244944721C6C25C700EF91D2 /* ImageTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244944711C6C25C700EF91D2 /* ImageTimelineViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		244944741C6C27CF00EF91D2 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244944731C6C27CF00EF91D2 /* ConversationsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		244944761C6C27EA00EF91D2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244944751C6C27EA00EF91D2 /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
@@ -40,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24074E401C6D49D800319D46 /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		24074E421C6EF3EE00319D46 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		24074E441C6EFD6200319D46 /* GetStartedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
 		244944711C6C25C700EF91D2 /* ImageTimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTimelineViewController.swift; sourceTree = "<group>"; };
 		244944731C6C27CF00EF91D2 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 		244944751C6C27EA00EF91D2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +92,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24074E481C6F05FA00319D46 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24074E441C6EFD6200319D46 /* GetStartedViewController.swift */,
+				24074E421C6EF3EE00319D46 /* TermsViewController.swift */,
+				24074E401C6D49D800319D46 /* CreateViewController.swift */,
+				244944751C6C27EA00EF91D2 /* SettingsViewController.swift */,
+				244944731C6C27CF00EF91D2 /* ConversationsViewController.swift */,
+				244944711C6C25C700EF91D2 /* ImageTimelineViewController.swift */,
+				24EC59161C6A5D8B008A4D46 /* LoginViewController.swift */,
+				24A3F4361C686336004CF272 /* IntroViewController.swift */,
+				24EC591C1C6AEF8F008A4D46 /* TutorialViewController.swift */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
 		24A3F3F81C685EAE004CF272 = {
 			isa = PBXGroup;
 			children = (
@@ -111,12 +133,7 @@
 			children = (
 				24A3F4041C685EAF004CF272 /* AppDelegate.swift */,
 				24A3F4081C685EAF004CF272 /* Main.storyboard */,
-				244944751C6C27EA00EF91D2 /* SettingsViewController.swift */,
-				244944731C6C27CF00EF91D2 /* ConversationsViewController.swift */,
-				244944711C6C25C700EF91D2 /* ImageTimelineViewController.swift */,
-				24EC59161C6A5D8B008A4D46 /* LoginViewController.swift */,
-				24A3F4361C686336004CF272 /* IntroViewController.swift */,
-				24EC591C1C6AEF8F008A4D46 /* TutorialViewController.swift */,
+				24074E481C6F05FA00319D46 /* View Controller */,
 				24A3F4321C6861FE004CF272 /* Common.swift */,
 				24A3F40B1C685EAF004CF272 /* Assets.xcassets */,
 				24A3F40D1C685EAF004CF272 /* LaunchScreen.storyboard */,
@@ -276,9 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24074E451C6EFD6200319D46 /* GetStartedViewController.swift in Sources */,
 				24EC59171C6A5D8B008A4D46 /* LoginViewController.swift in Sources */,
 				24A3F4371C686336004CF272 /* IntroViewController.swift in Sources */,
+				24074E411C6D49D800319D46 /* CreateViewController.swift in Sources */,
 				244944741C6C27CF00EF91D2 /* ConversationsViewController.swift in Sources */,
+				24074E431C6EF3EE00319D46 /* TermsViewController.swift in Sources */,
 				24EC591D1C6AEF8F008A4D46 /* TutorialViewController.swift in Sources */,
 				244944721C6C25C700EF91D2 /* ImageTimelineViewController.swift in Sources */,
 				24A3F4331C6861FE004CF272 /* Common.swift in Sources */,

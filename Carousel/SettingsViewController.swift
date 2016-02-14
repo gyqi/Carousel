@@ -29,7 +29,20 @@ class SettingsViewController: UIViewController {
     }
     
     @IBAction func pressSignOutButton(sender: AnyObject) {
-        self.performSegueWithIdentifier("signOutSegue", sender: self)
+        let alertController = UIAlertController(title: nil, message: "Are you sure you want to sign out?", preferredStyle: .ActionSheet)
+        let signOutAction = UIAlertAction(title: "Sign Out", style: .Destructive) { (action) in
+            self.performSegueWithIdentifier("signOutSegue", sender: self)
+        }
+        let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel) { (action) in
+            // handle case of user canceling. Doing nothing will dismiss the view.
+        }
+       
+        alertController.addAction(signOutAction)
+        alertController.addAction(cancelAction)
+        presentViewController(alertController, animated: true) {
+            // optional code for what happens after the alert controller has finished presenting
+        }
+
     }
 
     /*

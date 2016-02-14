@@ -13,6 +13,7 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var loginScrollView: UIScrollView!
     @IBOutlet weak var fieldParentView: UIView!
     @IBOutlet weak var buttonParentView: UIView!
+    @IBOutlet weak var loginNavImageView: UIImageView!
     
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
@@ -42,6 +43,32 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
         // Do any additional setup after loading the view.
         
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        // Set initial transform values 20% of original size
+        let transform = CGAffineTransformMakeScale(0.2, 0.2)
+        
+        // Apply the transform properties of the views
+        loginNavImageView.transform = transform
+        fieldParentView.transform = transform
+        
+        // Set the alpha properties of the views to transparent
+        loginNavImageView.alpha = 0
+        fieldParentView.alpha = 0
+        
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        UIView.animateWithDuration(0.3) { () -> Void in
+            // Return the views transform properties to their default states.
+            self.fieldParentView.transform = CGAffineTransformIdentity
+            self.loginNavImageView.transform = CGAffineTransformIdentity
+            
+            // Set the alpha properties of the views to fully opaque
+            self.fieldParentView.alpha = 1
+            self.loginNavImageView.alpha = 1
+        }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -69,7 +96,9 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
     }
     
     func scrollViewDidScroll(scrollView: UIScrollView) {
-        
+        if loginScrollView.contentOffset.y <= -50 {
+            view.endEditing(true)
+        }
     }
     
     @IBAction func pressSignInButton(sender: AnyObject) {

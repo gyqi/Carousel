@@ -28,7 +28,7 @@ class TutorialViewController: UIViewController, UIScrollViewDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+        
     func scrollViewDidEndDecelerating(scrollView: UIScrollView!) {
         
         // Get the current page based on the scroll offset
