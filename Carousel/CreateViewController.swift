@@ -81,7 +81,9 @@ class CreateViewController: UIViewController, UIScrollViewDelegate {
         termsView.frame.origin.y = initialY_termsView
         createView.frame.origin.y = initialY_createView
 
-        
+        //var tmp1 = CGFLoat(Float(1))
+        var tmp2 = Float(CGFloat(1))
+        //var tmp = CGFloat(1) * Float(2)
     }
     
     @IBAction func pressCheckBox(sender: AnyObject) {

@@ -25,16 +25,13 @@ class ImageTimelineViewController: UIViewController {
             hideTutorial()
             defaults.setBool(true, forKey: "banner_dismissed")
             defaults.synchronize()
-            print("1st")
         } else {
             if defaults.boolForKey("has_viewPhoto") == true && defaults.boolForKey("has_useTimewheel") == true && defaults.boolForKey("has_sharePhoto") == true {
                 hideTutorial()
                 defaults.setBool(true, forKey: "banner_dismissed")
                 defaults.synchronize()
-                print("2nd")
             } else {
                 showTutorial()
-                print("3rd")
             }
         
         }
